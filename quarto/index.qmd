@@ -1,0 +1,9 @@
+---
+title: "quarto-hybrid-docs"
+image: profile.jpg
+image-alt: "profile"
+about: # https://quarto.org/docs/websites/website-about.html
+  template: jolla
+---
+
+Python と R 言語でのドキュメント管理サイト

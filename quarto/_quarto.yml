@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "quarto-hybrid-docs"
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    search: false
+    tools: 
+      - icon: github
+        text: Github
+        href: https://github.com/dmaruyama-51/quarto-hybrid-docs
+
+  sidebar:
+    style: "floating"
+    contents:
+      - section: "Python"
+        contents: contents_python/*
+      - section: "R"
+        contents: contents_r/*
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
