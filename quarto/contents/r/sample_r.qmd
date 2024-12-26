@@ -1,12 +1,12 @@
 ---
-title: "sample R"
+title: "Sample R"
 format:
   html:
     toc: true
     code-fold: true
 ---
 
-## データの準備
+## Data Preparation
 
 ```{r}
 #| label: setup
@@ -15,26 +15,26 @@ format:
 library(tidyverse)
 library(ggplot2)
 
-# サンプルデータの作成
+# Create sample data
 data <- tibble(
   x = rnorm(100),
   y = 2 * x + rnorm(100)
 )
 ```
 
-## 散布図の作成
+## Creating a Scatter Plot
 
 ```{r}
 #| label: fig-scatter
-#| fig-cap: "散布図による相関関係の可視化"
+#| fig-cap: "Visualization of correlation using scatter plot"
 
 ggplot(data, aes(x, y)) +
   geom_point() +
   geom_smooth(method = "lm") +
   theme_minimal() +
   labs(
-    title = "x と y の関係",
-    x = "説明変数",
-    y = "目的変数"
+    title = "Relationship between x and y",
+    x = "Explanatory Variable",
+    y = "Response Variable"
   )
 ``` 
