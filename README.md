@@ -41,6 +41,13 @@ This repository provides a Quarto template for creating documentation that inclu
 1. **Add new content to the `quarto/contents` directory**:
    Create new `.qmd` files in the `quarto/contents` directory and add the necessary content.
 
+2. **Preview the content**:
+   Use the following command to preview your changes in a browser:
+   ```bash
+   cd quarto
+   poetry run quarto preview
+   ```
+
 ### Modifying or Adding Sections
 
 1. **Modify the directory structure under `quarto/contents`**:
