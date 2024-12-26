@@ -4,6 +4,12 @@ This repository provides a Quarto template for creating documentation that inclu
 
 ![preview](images/preview.png)
 
+You can host document on Cloudflare Pages for free. 
+- demo url: https://quarto-hybrid-docs.pages.dev/
+- username: demouser
+- password: passw0rd
+
+
 ## Environment Setup
 
 1. **Install Poetry**:
