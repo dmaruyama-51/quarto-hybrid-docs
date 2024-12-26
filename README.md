@@ -2,6 +2,8 @@
 
 This repository provides a Quarto template for creating documentation that includes both Python and R code along with their execution results.
 
+![preview](images/preview.png)
+
 ## Environment Setup
 
 1. **Install Poetry**:
