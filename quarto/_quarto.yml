@@ -16,9 +16,9 @@ website:
     style: "floating"
     contents:
       - section: "Python"
-        contents: contents_python/*
+        contents: contents/python/*
       - section: "R"
-        contents: contents_r/*
+        contents: contents/r/*
 
 format:
   html:
