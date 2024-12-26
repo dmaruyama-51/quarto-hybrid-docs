@@ -69,3 +69,26 @@ This repository provides a Quarto template for creating documentation that inclu
            contents:
              - file3.qmd
    ```
+
+## Deploying to Cloudflare Pages
+
+Local builds can be hosted as a free static site on Cloudflare Pages. Please configure the following settings on Cloudflare Pages:
+
+### Build Settings
+
+- **Build Command**: None
+- **Build Output**: docs
+- **Root Directory**: quarto
+
+### Branch Control
+
+- **Production Branch**: main
+
+### Enabling Basic Authentication
+
+If Basic Authentication is required, set the following secrets on Cloudflare Pages:
+
+- **AUTH_PASSWORD**
+- **AUTH_USERNAME**
+
+**Note**: If Basic Authentication is not needed, delete the files under the `quarto/functions` directory.
